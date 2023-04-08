@@ -1,0 +1,679 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;
+  }
+  
+  .container{
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  
+  .headerr{
+    height: 130px;
+    background: white;
+    margin-bottom: 0px;
+  }
+  .img{
+    margin: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 10px;
+    height: 10px;
+  }
+  .sub-nav-ul{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 30px;
+  }
+  .khoangcach{
+    text-align: center;
+    color: #315437;
+  }
+  .mausac{
+    color: #e37d7d;
+    font-weight: bold;
+    border-top: 1px solid #606060;
+  }
+ 
+ 
+  
+  
+  
+  .nav{
+    height: 50px;
+    background: rgb(243, 243, 247);
+    margin-bottom: 1px;
+  }
+  .na li{
+    list-style: none;
+    display: inline-block;
+  }
+  .na ul {
+    float: left;
+    line-height:50px;
+    padding: 0 15px;
+    text-transform: uppercase;
+  }
+  .na ul a{
+    color:#669471;
+    font-size: 14px;
+    text-decoration:none;
+  }
+  .na li a:hover{
+    color:#334862
+  }
+
+  
+  .search{
+    text-align: right;
+    margin-right: 30px;
+    padding-top: 8px;
+  }
+  .search .tiemkiem{
+    padding: 9px ;
+    padding-right: 50px;
+    font-size: 13px;
+    color: #80bd80;
+    border: 0px solid #669471;
+    display: inline-block;
+    background-color: #d1e6d6; 
+  }
+ 
+ 
+  
+  .slide{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .item{
+    width: 100%;
+    height: 80vh;
+  }
+  a{
+    text-decoration: none;
+}
+.prev, .next{
+    position:absolute;
+    padding: 16px;
+    /*background: #ccc;*/
+    top: 50%;
+    border-radius: 0 3px;
+    margin-top: -22px;
+    font-size: 18px;
+    color: white;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0px;
+}
+.prev:hover, .next:hover{
+    background: rgba(147, 147, 147, 0.8);
+}
+
+
+  
+
+  
+  .headline{
+    text-align: center;
+  }
+  .headline h2{
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #669471;
+    border: 1px solid #669471;
+    display: inline-block;
+    font-weight: bold;
+  }
+ 
+  
+  
+  
+  
+  .row{
+    display: flex;
+    width: 980px;
+    margin: auto;
+  
+  }
+  .hidden{
+    overflow: hidden;
+    position: relative;
+    display: block;
+  }
+  .col-item{
+    width: calc(100%/4);
+    margin-right: 10px;
+  
+  }
+  .col-content{
+    padding: 10px 0px;
+    font-size: 16px;
+    display: block;
+  }
+  .img-item {
+    width: 100%;
+  }
+  .buy{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #80bd80;
+    color: #fff;
+    padding: 10px 0px;
+    position: absolute;
+    width: 100%;
+    bottom: -39px;
+    transition: 0.25 ease-in-out;
+  
+  }
+  .row .col-item .hidden:hover a.buy{
+    bottom: 0px;
+  }
+  ul li{
+    list-style:  none;
+  }
+  .header{
+    font-weight: 500px;
+    padding: 3px 0px;
+    color: #334862;
+  }
+  .pre-price{
+    color: #80bd80;
+    font-weight: 600;
+    padding: 2px 0px;
+  }
+  .discont{
+    margin-bottom: 5px;
+  }
+  .dis-price{
+    text-decoration: line-through;
+  }
+  .icons li {
+    margin-right: 4px;
+  }
+  ul li a {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 40px;
+    color: #5a5a5a;
+  }
+  
+  
+  
+  
+
+  .promise{
+    width: 980px;
+    margin: auto;
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    position: relative;
+  }
+  .promise .pp{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-weight: bold;
+    color:#80bd80;
+  }
+  .promise .p{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-left: 85px;
+    color:#fff;
+    line-height: 110px;
+  }
+
+
+  
+  /*footer*/
+  .footer{
+    background-color: #366352;
+    height: 250px;
+    display: flex;
+  }
+  .grid_colum-2-4{
+    margin-top: 35px;
+    width: 100%;
+    float: left;
+    margin-left: 95px;
+    margin-right: 35px;
+  }
+  .mrb10{
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: white;
+    line-height: 25px;
+  }
+  .footer_heading{
+    color: white;
+  }
+  .end{
+    background: #669471;
+    color: white;
+    height: 50px;
+    padding: 17px 0px;
+    font-size: 15px;
+  }
+  .end_style{
+    margin-left: 65px;
+  }
+  .end :hover{
+    text-decoration: underline;
+  }
+  .grid_colum-2-4 :hover{
+    text-decoration: underline;
+    color: #80bd80;
+  }
+  
+
+/*trang thông tin*/
+  .profile {
+    text-align: center;
+    width: 980px;
+    margin: auto;
+  }
+ 
+  .seperate{
+  width: 10%;
+  border-top: 6px dotted #c3cac5;
+  margin: 100px auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  }
+
+.skills{
+  margin-top: 50px;
+}
+.my-skill{
+  color:#366352;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+  .skills .skill-row{
+    display: flex;
+    width: 840px;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 90px;
+    margin-top: 40px;
+  }
+  .skills .skill-img{
+    width: 30%;
+    margin-left: 30px;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+  }
+  .skills .skill-image{
+    width: 35%;
+    margin-left: 30px;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+  }
+  .skills .text {
+  text-align: left;
+  margin-left: 40px;
+  line-height: 30px;
+  }
+  .skills .title{
+    font-family: 'Montserrat', sans-serif;
+    color:#669471;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .skills .desc-title{
+    font-family: 'Merriweather', serif;
+    color: #606060;
+    margin-top: 5.5px;
+    font-weight: normal;
+  }
+
+
+
+  .intro {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    color: #366352;
+    font-weight: 12px;
+    margin-top: 15px;
+    text-transform: uppercase;
+  }
+  .contact .desc-title p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    line-height: 15px;
+    font-family: 'Merriweather', serif;
+    color: #606060;
+    font-weight: normal;
+  }
+  .contact .btn{
+    background: #366352;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .contact .btn:hover {
+      background: #80bd80;
+      transition: all 1s;
+  }
+
+
+
+/*trang chăm sóc*/
+.care{ 
+  width: 840px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.care h2{
+  color:#366352;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.care_img{
+  margin-left: 200px;
+  width: 500px;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.tuoinuoc{
+  display: flex;
+  margin-right: 50px;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.tuoinuoc_img{
+  width: 275px;
+  margin-right: 30px;
+  border-radius: 15px;
+}
+.tuoinuoc h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#669471;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.tuoinuoc p{
+  font-family: 'Merriweather', serif;
+  color: #606060;
+  margin-top: 5.5px;
+  font-weight: normal;
+}
+
+.anhsang{
+  display: flex;
+  margin-right: 50px;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.anhsang_img{
+  width: 280px;
+  margin-right: 35px;
+  border-radius: 15px;
+}
+.anhsang h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#669471;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.anhsang p{
+  font-family: 'Merriweather', serif;
+  color: #606060;
+  margin-top: 5.5px;
+  font-weight: normal;
+}
+
+.vitri{
+  display: flex;
+  margin-right: 50px;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.vitri_img{
+  margin-right: 35px;
+  width: 280px;
+  border-radius: 15px;
+}
+.vitri h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#669471;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.vitri p{
+font-family: 'Merriweather', serif;
+color: #606060;
+margin-top: 5.5px;
+font-weight: normal;
+}
+
+.bonphan{
+  display: flex;
+  margin-right: 50px;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.bonphan_img{
+  margin-right: 35px;
+  width: 280px;
+  border-radius: 15px;
+}
+.bonphan h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#669471;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.bonphan p{
+  font-family: 'Merriweather', serif;
+  color: #606060;
+  margin-top: 5.5px;
+  font-weight: normal;
+  }
+
+.chuy{
+  display: flex;
+  margin-right: 50px;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.chuy_img{
+  margin-right: 37px;
+  width: 370px;
+  height: 200px;
+  border-radius: 15px;
+}
+.chuy h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#669471;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.chuy p{
+  font-family: 'Merriweather', serif;
+  color: #606060;
+  margin-top: 5.5px;
+  font-weight: normal;
+}
+
+
+
+
+/*trang sản phẩm*/
+.containerr{
+  display: flex;
+}
+.grid_colum-2 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width:20%;
+}
+.headlinee1 a{
+  margin-left: 320px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #669471;
+  border: 1px solid #669471;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.headlinee2 a{
+  margin-left: 290px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #669471;
+  border: 1px solid #669471;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.headlinee3 a{
+  margin-left: 300px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #669471;
+  border: 1px solid #669471;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.headlinee4 a{
+  margin-left: 200px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #669471;
+  border: 1px solid #669471;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.category__list {
+  padding-left: 0;
+}
+.category-item_link {
+    display: block;
+    color:#669471;
+    font-size: 14px;
+    text-decoration:none;
+    text-transform: uppercase;
+    padding: 17px 18px;
+    position:relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    line-height: 20px;
+}
+.category-item_link:hover{
+  background: rgba(226, 218, 218, 0.8);
+}
+.category__heading {
+  display: block;
+  color:#366352;
+  font-size: 18px;
+  text-decoration:none;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: bolder;
+}
+  
+
+/*Trang liên hệ*/
+.row-form h2{
+  font-size: 20px;
+}
+.form-control{
+  margin-top: 8px;
+  padding: 9px ;
+  padding-right: 50px;
+  font-size: 15px;
+  border: 0px;
+  display: inline-block;
+  background-color: rgb(243, 243, 247);
+}
+.formdathang{
+  width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+}
+.thongtinlienhe{
+  margin-left: 40px;
+  line-height: 30px;
+  margin-top: 90px;
+}
+.row-form{
+  margin-left: 200px;
+  border: 0px;
+  
+}
+.thongtinkhachhang{
+  display: flex;
+}
+.diachi{
+  margin-left: 30px;
+}
+.so{
+  display: flex;
+  margin-top: 30px;
+}
+.sodienthoai{
+  margin-right: 25px;
+}
+.soluong{
+  margin-left: 10px;
+}
+.note{
+  display: flex;
+  margin-top: 30px;
+}
+.loinhan{
+  margin-left: 30px;
+}
+.dathang{
+  background: #366352;
+  padding: 10px 14px 11px 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+.dathang:hover {
+    background: #80bd80;
+    transition: all 1s;
+}
